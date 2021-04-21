@@ -11,7 +11,10 @@ h1 {
   font-weight: bold;
   color: teal;
 }
-
+.container {
+  max-width: 1140px;
+  background-color: white;
+}
 
 .nav {
   height: 60px;
@@ -19,12 +22,13 @@ h1 {
   background-color: teal;
   font-weight: bold;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 7px;
+  padding: 10px;
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   vertical-align: center;
+}
+.bg-light {
+  background-color: #ffffff!important;
 }
 
 img {
@@ -38,25 +42,16 @@ img {
  * (i.e. below or left of where the element would normally be)
  */
 
- .box-set {
+ /* .box-set {
   position: relative;
   height: 1200px;
   background:lightgray;
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px; */
 
-.box {
-  position: relative;
-  height: 600px;
-  background: rgb(255, 255, 255);
-  padding: 50px;
-}
 
-.box2 {
-  position: relative;
-  height: 550px;
-  background-color: white;
-  padding: 50px;
+
+.box2 ul{
+  padding-top: 51px;
 }
 
 #thumbnail {
